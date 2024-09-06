@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B0F1F9;
+  background-image: url('images/Background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+article div {
+  width: 100vw;
+  max-width: 600px;
+  height: 100vw;
+  max-height: 600px;
+  padding: 20px;
+  background-color: #B0F1F9;
+  box-shadow: 0 0 10px #000;
+  overflow: auto;
+  display: center;
+  flex-direction: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.Black {
+  color: black;
+}
+
+/* Buttons */
+.btn {
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.CM, .CPC, .CPS {
+  color: dodgerblue;
+}
+
+.CM:hover, .CPC:hover, .CPS:hover {
+  background: #2196F3;
+  color: white;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- S4ph3's Clicker Game -->
+  <!-- File name: index.html -->
+  <!-- Author: Owen Costa -->
+  <!-- Date: 7 months ago ( I dont remember exact date ) current = 4 / 8 / 2024 -->
+  <!-- HTML5, Java and CSS3, Small Project -->
+  <title>My Clicker Game</title>
+  <link rel="stylesheet" href="Styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  
+  <link rel="manifest" href="/manifest.json">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="My Clicker Game">
+  <link rel="apple-touch-icon" href="images/AppleTouchIcon.png">
+  
+  <meta name="theme-color" content="#2196F3">
+</head>
+<body>
+  <article>
+    <div>
+      <h2>Clicker Game</h2>
+      <p>How to play: Click the "Click Me" button below and it will give you something called "Click Points"! Use the Click Points to buy things to help you get more clicks.</p>
+      <p>----------------------------------------------------------------------------------------------------</p>
+      <button onclick="ButtonClickAddClick() + PlayClickingAudio()" class="btn CM">Click Me</button>
+      <p>--------------------------------------------------</p>
+      <p class="Black" id="click"></p>
+      <p style="color:red;" id="click2"></p>
+      <p class="Black" id="click3"></p>
+      <p class="Black" id="click4"></p>
+      <p class="Black" id="click5"></p>
+      <p class="Black" id="click6"></p>
+      <script src="GameHandler.js"></script>
+      <p>--------------------------------------------------</p>
+      <button onclick="ButtonCPC() + PlayClickingAudio()" class="btn CPC">Buy Clicks Per Click</button>
+      <button onclick="ButtonCPS() + PlayClickingAudio()" class="btn CPS">Buys Clicks Per Second</button>
+    </div>
+  </article>
+</body>
+</html>
+
